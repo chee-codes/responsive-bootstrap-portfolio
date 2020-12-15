@@ -78,3 +78,20 @@ a:active {
   font-size: 14px;
 }
 
+
+/* Contact Page Styles */
+
+.form-btn {
+  background: #4aaaa5;
+  color: white;
+  border-radius: 0px;
+}
+
+.form-group {
+  padding-left: 15px;
+  margin-right: 20px;
+}
+
+.form-control {
+  border-radius: 0px;
+}
