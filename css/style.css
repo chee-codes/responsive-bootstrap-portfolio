@@ -41,6 +41,7 @@ a:active {
 
 /* Main Content Styling */
 
+
 .my-col {
   background: white;
   color: #212529;
@@ -60,10 +61,6 @@ a:active {
 
 
 /* Footer Styling */
-
-.mini-bar {
-  background: #4aaaa5;
-}
 
 .footer {
   background: #666666;
