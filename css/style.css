@@ -81,12 +81,6 @@ a:active {
 
 /* Contact Page Styles */
 
-.form-btn {
-  background: #4aaaa5;
-  color: white;
-  border-radius: 0px;
-}
-
 .form-group {
   padding-left: 15px;
   margin-right: 20px;
@@ -95,3 +89,15 @@ a:active {
 .form-control {
   border-radius: 0px;
 }
+
+.form-btn {
+  background: #4aaaa5;
+  color: white;
+  border-radius: 0px;
+}
+
+
+
+/* Portfolio Page Styles */
+
+
