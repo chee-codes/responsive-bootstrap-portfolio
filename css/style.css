@@ -16,9 +16,16 @@ body {
 }
 
 a {
-  text-decoration: none;
+  color: #7c7c7d;
 }
 
+a:hover {
+  color: #383939;
+}
+
+a:active {
+  color: #383939;
+}
 
 /* Navigation Styling */
 
@@ -30,11 +37,6 @@ a {
   color: #4aaaa5;
 }
 
-/* .navbar-nav a {
-  color: darkslategray;
-} */
-
-
 
 
 /* Main Content Styling */
@@ -42,13 +44,16 @@ a {
 .my-col {
   background: white;
   color: #212529;
-
-  /* remove border */
-  border: 1px solid black;
 }
 
 .my-col h1 {
   color: #4aaaa5;
+  padding: 5px;
+  margin: 3px;
+}
+
+.my-col hr {
+  margin: 10px;
 }
 
 
