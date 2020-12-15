@@ -1,0 +1,75 @@
+/* 
+Add correct colors.
+
+Make sure selectors match html.
+
+Match flow of CSS with html
+
+
+*/
+
+/* Base Styling */
+
+
+body {
+  background: lightgray;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Navigation Styling */
+
+.custom-nav {
+  background-color: white;
+}
+
+.navbar-brand {
+  color: #4aaaa5;
+}
+
+/* .navbar-nav a {
+  color: darkslategray;
+} */
+
+
+
+
+/* Main Content Styling */
+
+.my-col {
+  background: white;
+  color: #212529;
+
+  /* remove border */
+  border: 1px solid black;
+}
+
+.my-col h1 {
+  color: #4aaaa5;
+}
+
+
+
+
+/* Footer Styling */
+.mini-bar {
+  background: #4aaaa5;
+  position: absolute;
+  bottom: 53px;
+  height: 10px;
+  max-width: 100%;
+  margin-top: auto;
+}
+
+.footer {
+  background: #666666;
+}
+
+.footer p {
+  color: #6c757d;
+  font-size: 14px;
+}
+
