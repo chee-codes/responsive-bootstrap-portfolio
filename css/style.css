@@ -10,22 +10,18 @@ Match flow of CSS with html
 
 /* Base Styling */
 
-
 body {
   background: lightgray;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
 }
 
 a {
-  color: #7c7c7d;
+  text-decoration: none;
 }
 
-a:hover {
-  color: #383939;
-}
 
-a:active {
-  color: #383939;
-}
+
 
 /* Navigation Styling */
 
@@ -37,24 +33,53 @@ a:active {
   color: #4aaaa5;
 }
 
+.navbar-nav a:link {
+  color: #7c7c7d;
+}
+
+.navbar-nav a:visited {
+  color: #7c7c7d;
+}
+
+.navbar-nav a:hover {
+  color: #383939;
+}
+
+.navbar-nav a:active {
+  color: black;
+}
 
 
 /* Main Content Styling */
 
+.my-row {
+  margin: 40px 0;
+}
 
 .my-col {
   background: white;
   color: #212529;
+  padding: 5px;
+
 }
 
 .my-col h1 {
   color: #4aaaa5;
+  font-weight: bold;
   padding: 5px;
-  margin: 3px;
+  margin: 4px;
 }
 
 .my-col hr {
   margin: 10px;
+}
+
+.my-col img {
+  padding: 0px 10px;
+}
+
+.my-col p {
+  padding: 0px 5px;
 }
 
 
@@ -68,18 +93,32 @@ a:active {
 
 .footer p {
   color: #6c757d;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: bold;
 }
 
 
-/* Contact Page Styles */
 
-.form-group {
-  padding-left: 15px;
-  margin-right: 20px;
+/* 
+
+
+Contact Page Styles 
+
+
+*/
+
+
+
+.custom-form  {
+  padding: 25px;
+  
 }
 
-.form-control {
+.custom-form div input {
+  border-radius: 0px;
+}
+
+.custom-form div textarea {
   border-radius: 0px;
 }
 
@@ -91,6 +130,13 @@ a:active {
 
 
 
-/* Portfolio Page Styles */
+/* 
+
+
+Portfolio Page Styles 
+
+
+*/
+
 
 
